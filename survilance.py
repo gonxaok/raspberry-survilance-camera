@@ -18,7 +18,7 @@ for file in os.listdir(img_folder):
     img_path = os.path.join(img_folder, file)
     known_faces.append(cv2.imread(img_path))
 
-# Iniciar la cámara
+
 cap = cv2.VideoCapture(0)
 
 while True:
